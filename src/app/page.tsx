@@ -2,15 +2,6 @@
 import Image from "next/image";
 import { SearchSDK } from "@metaworklabs/search-sdk/lib";
 import SearchInterface from "@metaworklabs/search-sdk/lib";
-// type SearchInterface = {
-//   searchQuery: string;
-//   category?: string;
-//   slug?: string;
-//   owner?: string;
-//   limit?: number;
-//   page?: number;
-//   next?: any;
-// };
 import { useEffect } from "react";
 export default function Home() {
   const machaDevClient = new SearchSDK(process.env.NEXT_PUBLIC_API_KEY!);
