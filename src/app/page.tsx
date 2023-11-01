@@ -46,7 +46,7 @@ export default function Home() {
         >
           Search
         </button>
-        <button className="b mx-4">Search</button>
+       
       </div>
       
       <div className="flex flex-row flex-wrap">
